@@ -1,0 +1,195 @@
+/* CSS Document */
+
+*{
+margin:0;
+padding:0;
+font-family:sans-serif;
+}
+
+.logo
+{
+width:100px;
+height:10%;
+margin-top:0px;
+}
+
+nav
+{
+display:flex;
+width:90%;
+margin:auto;
+padding:20px 0;
+align-items:center;
+justify-content:space-between;
+background:whait;
+}
+
+
+nav ul li{
+display:inline-block;
+list-style:none;
+margin:10px 20px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:#000;
+font-weight:bold;
+box-shadow:1px 2px 2px 2px #FFFFFF;
+}
+
+nav ul li a:hover{
+color:#FF0033;
+}
+
+/* nav close */
+
+
+.slider{
+	overflow: hidden;
+}
+
+.slider figure {
+	position: relative;
+	width: 1000%;
+	margin: 0;
+	left: 0;
+	animation: 10s slider infinite;
+
+
+}
+.slider figure img {
+
+float: left;
+width:10%;
+height: 600px;
+
+}
+@keyframes slider {
+0%{
+	left: 0;
+}
+20%{
+	left: 0;
+}
+25%{
+	left: -100%;
+}
+45%{
+left: -100%; 
+}
+50%{
+	left: -200%;
+}
+70%{
+left: -200%;
+}
+75%{
+	left: -300%;
+}
+95%{
+	left: -300%;
+}
+100%{
+	left: -400%;
+}
+}
+
+.socialmedia{
+
+	height:100px;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+	
+	a{
+	
+	background:none;
+	width: 70px;
+	height:70px;
+	border-radius:50px;
+	text-align:center;
+	line-height:50px;
+	box-shadow:1px 4px 2px 2px #dcdde1;
+	margin:10px;
+	
+	}
+	
+	a i{
+	
+	transition: all .3s linear;
+	padding:20px;
+	
+	}
+	
+	a:hover i{
+	
+	transform: scale(1.4);
+	
+	}
+	.fa-facebook{
+	
+	color: #3b5998;
+	}
+	
+	.fa-instagram{
+	
+	color: purple;
+	
+	}
+	
+	.fa-twitter{
+	
+	color: #00acee;
+	}
+	
+	
+	
+	
+	.fa-linkedin{
+	
+		color:#0e76a4;
+	}
+	
+	
+	.fa-youtube{
+	
+		color:#c4302b;
+	}
+	
+	
+	
+	
+	
+	.fa-github{
+	
+		color:#000000;
+	}
+	
+	
+	
+	.fa-pinterest{
+	
+		color:#c8232c;
+	}
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
